@@ -67,7 +67,7 @@ jobjectArray GetFeatureList(JNIEnv *env, jobject context) {
     return ret;
 }
 
-void Changes(JNIEnv *env, jclass clazz, jobject obj, jint featNum, jint intValue, jlong longValue, jboolean boolean, jstring str) {
+void Changes(JNIEnv *env, jclass clazz, jobject obj, jint featNum, jstring featName, jint value, jlong longValue, jboolean boolean, jstring str) {
     switch (featNum) {
         case 0: godModeEnabled = boolean; break;
         case 1: infiniteHealthEnabled = boolean; break;
