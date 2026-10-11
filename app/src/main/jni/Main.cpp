@@ -14,9 +14,9 @@
 #include "Includes/obfuscate.h"
 #include "Includes/Utils.hpp"
 #include "Includes/Macros.h"
-#include "Menu/Menu.h"
+#include "Menu/Menu.hpp"
 #include "Menu/Jni.hpp"
-#include "KittyMemory/MemoryPatch.h"
+#include "KittyMemory/MemoryPatch.hpp"
 
 bool godModeEnabled = false;
 bool infiniteHealthEnabled = false;
